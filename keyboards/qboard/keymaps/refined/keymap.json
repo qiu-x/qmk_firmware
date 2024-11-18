@@ -3,7 +3,7 @@
   "notes": "",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "kbdfans/niu_mini",
-  "keymap": "kbdfans_niu_mini_kbdfans_niu_mini_kbdfans_niu_mini_layout_planck_mit_mine",
+  "keymap": "kbdfans_niu_mini_refined_qboard",
   "layout": "LAYOUT_planck_mit",
   "layers": [
     [
@@ -19,7 +19,7 @@
       "KC_O",
       "KC_P",
       "KC_BSPC",
-      "QK_GESC",
+      "KC_ESC",
       "KC_A",
       "KC_S",
       "KC_D",
@@ -44,7 +44,7 @@
       "KC_MINS",
       "KC_QUOT",
       "KC_LCTL",
-      "KC_TILD",
+      "KC_GRV",
       "KC_LGUI",
       "KC_LALT",
       "MO(1)",
