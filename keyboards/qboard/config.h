@@ -3,6 +3,9 @@
 
 #pragma once
 
+#define DEBOUNCE 10
+#define MATRIX_HAS_GHOST
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.

@@ -251,7 +251,7 @@ static inline bool has_ghost_in_row(uint8_t row, matrix_row_t rowdata) {
     we are checking one row at a time, not all of them at once.
     */
     for (uint8_t i = 0; i < MATRIX_ROWS; i++) {
-        if (i != row && popcount_more_than_one(get_real_keys(i, matrix_get_row(i)) & rowdata)) {
+        if (i != row && row > i && popcount_more_than_one(get_real_keys(i, matrix_get_row(i)) & rowdata)) {
             return true;
         }
     }
