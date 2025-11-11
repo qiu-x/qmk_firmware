@@ -4,7 +4,9 @@
 #pragma once
 
 #define DEBOUNCE 10
-#define MATRIX_HAS_GHOST
+// #define MATRIX_HAS_GHOST
+#define DIODE_DIRECTION ROW2COL
+
 
 /*
  * Feature disable options
